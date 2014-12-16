@@ -1,0 +1,58 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:4
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:4
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:37
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:5:4
+	android:label
+		ADDED from AndroidManifest.xml:6:7
+	android:icon
+		ADDED from AndroidManifest.xml:5:17
+activity#com.deitel.addressbook.MovieBook
+ADDED from AndroidManifest.xml:7:7
+	android:label
+		ADDED from AndroidManifest.xml:8:10
+	android:name
+		ADDED from AndroidManifest.xml:7:17
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:9:10
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:10:13
+	android:name
+		ADDED from AndroidManifest.xml:10:21
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:11:13
+	android:name
+		ADDED from AndroidManifest.xml:11:23
+activity#com.deitel.addressbook.AddEditMovie
+ADDED from AndroidManifest.xml:14:7
+	android:label
+		ADDED from AndroidManifest.xml:15:10
+	android:name
+		ADDED from AndroidManifest.xml:14:17
+activity#com.deitel.addressbook.ViewMovie
+ADDED from AndroidManifest.xml:16:7
+	android:label
+		ADDED from AndroidManifest.xml:17:10
+	android:name
+		ADDED from AndroidManifest.xml:16:17
+uses-sdk
+ADDED from AndroidManifest.xml:19:4
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:19:14
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:layout_width="match_parent" 
+   android:layout_height="wrap_content" android:layout_weight="1">
+   <TableLayout android:layout_width="match_parent" 
+      android:layout_height="wrap_content"
+      android:stretchColumns="1" android:layout_margin="5dp">
+      <TableRow android:id="@+id/titleTableRow"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/titleLabelTextView"
+            style="@style/MovieLabelTextView"
+            android:text="@string/label_title"></TextView>
+         <TextView android:id="@+id/titleTextView"
+            style="@style/MovieTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/yearTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/yearLabelTextView"
+            style="@style/MovieLabelTextView"
+            android:text="@string/label_year"></TextView>
+         <TextView android:id="@+id/yearTextView"
+            style="@style/MovieTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/directorTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/directorLabelTextView"
+            style="@style/MovieLabelTextView"
+            android:text="@string/label_director"></TextView>
+         <TextView android:id="@+id/directorTextView"
+            style="@style/MovieTextView"></TextView>
+      </TableRow>
+
+       <TableRow
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:id="@+id/trailerButtonRow">
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/watchTrailerButton"
+               android:id="@+id/trailerButton"
+               android:enabled="true"
+               android:layout_column="0"
+               android:layout_span="2" />
+       </TableRow>
+
+       <TableRow
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:id="@+id/updateButtonROw">
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/updateMovieButton"
+               android:id="@+id/updateButton"
+               android:layout_span="2" />
+       </TableRow>
+
+   </TableLayout>
+</ScrollView>
+<!-- From: file:/home/ozi/AndroidStudioProjects/Android-Movie-Informer1/app/src/main/res/layout/view_movie.xml -->

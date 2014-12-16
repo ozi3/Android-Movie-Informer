@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Movie Informer</string>
+   <string name="button_add_movie">Add Movie</string>
+    <string name="watchTrailerButton">Watch Trailer</string>
+    <string name="updateMovieButton">Update Movie</string>
+   <string name="button_save_movie">Save Movie</string>
+   <string name="menuitem_add_movie">Add Movie</string>
+   <string name="menuitem_edit_movie">Update Movie</string>
+   <string name="menuitem_delete_movie">Delete Movie</string>
+   <string name="hint_title">Title</string>
+   <string name="hint_director">Director</string>
+   <string name="hint_year">Year</string>
+   <string name="label_title">Title:</string>
+   <string name="label_director">Director:</string>
+   <string name="label_year">Year:</string>
+   <string name="confirmTitle">Are You Sure?</string>
+   <string name="confirmMessage">
+      This will permanently delete the movie</string>
+   <string name="errorButton">OK</string>
+   <string name="errorTitle">Movie Name is Required</string>
+   <string name="errorMessage">You must enter a movie name</string>
+   <string name="button_cancel">Cancel</string>
+   <string name="button_delete">Delete</string>
+</resources>
